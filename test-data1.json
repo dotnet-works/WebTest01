@@ -1,0 +1,16 @@
+﻿{
+  "user": [
+    {
+      "name": "John",
+      "age": 12,
+      "gender": "Male",
+      "hobby": "Reading"
+    },
+    {
+      "name": "Susan",
+      "age": 34,
+      "gender": "Female",
+      "hobby": "Gardening"
+    }
+  ]
+}

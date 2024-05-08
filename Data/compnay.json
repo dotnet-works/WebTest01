@@ -1,0 +1,19 @@
+{
+  "Company": {
+    "Employees": [
+      {
+        "EmpName": "John",
+        "EmpGender": "Male",
+        "Age": "25"
+      },
+      {
+        "EmpName": "Mary",
+        "EmpGender": "Female"
+      },
+      {
+        "EmpName": "Bill",
+        "Age": "30"
+      }
+    ]
+  }
+}

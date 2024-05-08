@@ -7,11 +7,18 @@
 >dotnet test --filter FullyQualifiedName~xyz"
 >dotnet test --filter "FullyQualifiedName = YourNamespace.TestClass1.Test1"
 
-#####With OR condition
+##### With OR condition
+dotnet test --filter "FullyQualifiedName ~ TestSelenium1 | FullyQualifiedName ~ TestSelenium2" 
 
+##### Few More Condition
+Nunit:
+  FullyQualifiedName
+  Name
+  Priority
+  TestCategory
 
-dotnet test --filter "FullyQualifiedName~TestSelenium1 | FullyQualifiedName~TestSelenium2" 
-
-
-
-
+Operators:
+  = exact match
+ !=not exact match
+ ~ contains
+ !~ doesn't contain

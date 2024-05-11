@@ -14,7 +14,7 @@ namespace WebTests.ParaTests
 
     [AllureNUnit]
     [Parallelizable]
-    [Category("examples")]
+    [Category("sample")]
     public class TestXpath : TestBase
     {
         private MainPage amazonMainPage;
@@ -25,15 +25,9 @@ namespace WebTests.ParaTests
         public void initPages()
         {
             string videoPath = Path.Combine(ProjectUtil.ProjectPath, "test.mp4");
-           
-
-
             amazonMainPage = new MainPage(driver);
             
         }
-
-
-
 
         [Test]
         [Ignore("Ignore a test")]
@@ -56,35 +50,22 @@ namespace WebTests.ParaTests
         [Test]
         public void TestSelectList()
         {
-            IWebElement _amazonSelectList = driver.FindElement(By.Id("searchDropdownBox"));
+            //IWebElement _amazonSelectList = driver.FindElement(By.Id("searchDropdownBox"));
             //_amazonSelectList.Click();
             //Thread.Sleep(2000);
 
-            SelectElement amazonSearchDropDown1 = new SelectElement(_amazonSelectList);
+            SelectElement amazonSearchDropDown1 = new SelectElement(driver.FindElement(By.Id("searchDropdownBox")));
             amazonSearchDropDown1.SelectByText("MP3 Music");
             Thread.Sleep(3000);
             driver.FindElement(amazonMainPage._searchBTN).Click();
             Thread.Sleep(3000);
 
-            SelectElement amazonSearchDropDown2 = new SelectElement(_amazonSelectList);
+            SelectElement amazonSearchDropDown2 = new SelectElement(driver.FindElement(By.Id("searchDropdownBox")));
             amazonSearchDropDown2.SelectByText("Apps & Games");
             Thread.Sleep(3000);
             driver.FindElement(amazonMainPage._searchBTN).Click();
             Thread.Sleep(3000);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         public IWebElement GetElementByLabel(string label)

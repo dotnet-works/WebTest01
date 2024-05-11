@@ -25,7 +25,13 @@ namespace AutomationBase
         public void GlobalSetUp()
         {
             string browserName = Environment.GetEnvironmentVariable("BROWSER");
+            string ENV2 = Environment.GetEnvironmentVariable("ENV2");
             string platform = Environment.OSVersion.ToString();
+
+            if (ENV2 == "") { Console.WriteLine("ENV2 is empty");  }
+            else if(ENV2==null) { Console.WriteLine("ENV2 is null"); }
+
+            Console.WriteLine(ENV2.GetType());
             
             Console.WriteLine($"Param: {TestContext.Parameters["param1"]}");
             Console.WriteLine($"browser: {browserName} platform: {platform}");
@@ -70,9 +76,19 @@ namespace AutomationBase
         [SetUp]
         public void InitSetUp()
         {
-            string browserName = Environment.GetEnvironmentVariable("BROWSERTYPE");
+            
             string browserMode = Environment.GetEnvironmentVariable("BROWSERMODE");
+            string browserName = Environment.GetEnvironmentVariable("BROWSER");
+            string ENV2 = Environment.GetEnvironmentVariable("ENV2");
             string platform = Environment.OSVersion.ToString();
+
+            if (ENV2 == "") { Console.WriteLine("ENV2 is empty"); }
+            else if (ENV2 == null) { Console.WriteLine("ENV2 is null"); }
+
+            Console.WriteLine(ENV2.GetType());
+
+
+
 
             //Console.WriteLine($"Param: {TestContext.Parameters["param1"]}");
             Console.WriteLine($"browser: {browserName} platform: {platform}");

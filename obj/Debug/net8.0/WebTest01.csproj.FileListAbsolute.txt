@@ -150,3 +150,4 @@ E:\JenkinsGitDemo\dotnet\WebTest01\bin\Debug\net8.0\Microsoft.Extensions.Depende
 E:\JenkinsGitDemo\dotnet\WebTest01\bin\Debug\net8.0\TextCopy.dll
 E:\JenkinsGitDemo\dotnet\WebTest01\bin\Debug\net8.0\nunit.framework.legacy.dll
 E:\JenkinsGitDemo\dotnet\WebTest01\bin\Debug\net8.0\testhost.exe
+E:\JenkinsGitDemo\dotnet\WebTest01\obj\Debug\net8.0\WebTest01.sourcelink.json

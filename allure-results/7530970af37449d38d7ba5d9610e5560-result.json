@@ -1,0 +1,55 @@
+{
+  "uuid": "4543fa52-b317-43ea-8dfb-9dff0599a427",
+  "historyId": "9beb112b3d1ae7c77e92fe9ddbabb8e5",
+  "testCaseId": "88ad3e2ed7e1341d4b449c4bb563e601",
+  "fullName": "WebTest01:WebTests.ParaTests.TestXpath.TestSelectList()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-BLK2H80"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "WebTests.ParaTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSelectList"
+    },
+    {
+      "name": "testClass",
+      "value": "TestXpath"
+    },
+    {
+      "name": "tag",
+      "value": "sample"
+    }
+  ],
+  "links": [],
+  "name": "TestSelectList",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "8cd6841b-edf6-443d-8ea6-9eebc4e74ffa-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1715443811181,
+  "stop": 1715443837647
+}

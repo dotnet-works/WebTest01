@@ -6,12 +6,10 @@
 			<ENV1>ENV_VAL</ENV1>
 			<ENV2></ENV2>
 		</EnvironmentVariables>
-		<!--<TestCaseFilter>(TestCategory = sample)</TestCaseFilter>-->
-		<TestCaseFilter>(FullyQualifiedName = WebTests.ParaTests.TestXpath)</TestCaseFilter>
 	</RunConfiguration>
-	
+
 	<TestRunParameters>
 		<Parameter name="param1" value="someExampleValue" />
 	</TestRunParameters>
-	
+	<TestCaseFilter>(Category=sample)</TestCaseFilter>
 </RunSettings>

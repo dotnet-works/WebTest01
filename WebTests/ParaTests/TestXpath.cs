@@ -65,6 +65,7 @@ namespace WebTests.ParaTests
             Thread.Sleep(3000);
             driver.FindElement(amazonMainPage._searchBTN).Click();
             Thread.Sleep(3000);
+            Console.WriteLine("try new push");
         }
 
 

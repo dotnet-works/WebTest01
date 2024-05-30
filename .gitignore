@@ -3,3 +3,5 @@
 #/config
 .git
 .vs
+obj
+.gitignore

@@ -7,7 +7,7 @@
 			<ENV2></ENV2>
 		</EnvironmentVariables>
 		<!--<TestCaseFilter>(TestCategory = sample)</TestCaseFilter>-->
-		<TestCaseFilter>(FullyQualifiedName = WebTests.ParaTests.TestXpath)</TestCaseFilter>
+		<TestCaseFilter>(FullyQualifiedName = WebTests.ParaTests.SearchAmazonProduct1)</TestCaseFilter>
 	</RunConfiguration>
 	
 	<TestRunParameters>

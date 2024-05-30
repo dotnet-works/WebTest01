@@ -8,7 +8,7 @@
 //using static System.Net.Mime.MediaTypeNames;
 //using Encoding = System.Text.Encoding;
 
-//namespace ParaTets
+//namespace WebTests.ParaTests
 //{
 
 //    [AllureNUnit]
@@ -30,7 +30,7 @@
 //        {
 
 //            AllureApi.AddAttachment("data.txt", "text/plain", Encoding.UTF8.GetBytes("This is the file content."));
-        
+
 //            string _imgFile = Path.Combine(ProjectPath, "Data-Dir/image8.png");
 //            string _imgFile1 = Path.Combine(ProjectPath, "Data-Dir/b64Image.png");
 //            Console.WriteLine(ProjectPath);

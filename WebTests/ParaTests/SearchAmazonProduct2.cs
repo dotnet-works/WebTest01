@@ -3,7 +3,7 @@
 //using OpenQA.Selenium;
 
 
-//namespace ParaTets
+//namespace WebTests.ParaTests
 //{
 //    [AllureNUnit]
 //    [Parallelizable]

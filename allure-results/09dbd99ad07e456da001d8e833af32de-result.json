@@ -1,12 +1,12 @@
 {
-  "uuid": "890adcc7-1f62-4e0b-b69d-dabf6f0c5721",
-  "historyId": "9beb112b3d1ae7c77e92fe9ddbabb8e5",
-  "testCaseId": "88ad3e2ed7e1341d4b449c4bb563e601",
-  "fullName": "WebTest01:WebTests.ParaTests.TestXpath.TestSelectList()",
+  "uuid": "c6e0b84a-d965-453f-bdaa-1b0bf7682487",
+  "historyId": "9d5620eda04299b9235ba9a2e96e33ee",
+  "testCaseId": "75780a205a68e5f8662a8195e5957abb",
+  "fullName": "WebTest01:WebTests.ParaTests.SearchAmazonProduct1.Test1()",
   "labels": [
     {
       "name": "thread",
-      "value": "ParallelWorker#4"
+      "value": "ParallelWorker#3"
     },
     {
       "name": "host",
@@ -26,30 +26,26 @@
     },
     {
       "name": "testMethod",
-      "value": "TestSelectList"
+      "value": "Test1"
     },
     {
       "name": "testClass",
-      "value": "TestXpath"
-    },
-    {
-      "name": "tag",
-      "value": "sample"
+      "value": "SearchAmazonProduct1"
     }
   ],
   "links": [],
-  "name": "TestSelectList",
+  "name": "Test1",
   "status": "passed",
   "stage": "finished",
   "steps": [],
   "attachments": [
     {
       "name": "Console Output",
-      "source": "c57e9be1-6d22-4d8b-966f-06a197f29806-attachment.txt",
+      "source": "9c736e27-947f-4bfc-a90a-20449c2fd0a4-attachment.txt",
       "type": "text/plain"
     }
   ],
   "parameters": [],
-  "start": 1717094162338,
-  "stop": 1717094183814
+  "start": 1717095797036,
+  "stop": 1717095806461
 }

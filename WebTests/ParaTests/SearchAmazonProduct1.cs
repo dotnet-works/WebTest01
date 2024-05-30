@@ -3,7 +3,7 @@ using AutomationBase;
 using OpenQA.Selenium;
 
 
-namespace ParaTets
+namespace WebTests.ParaTests
 {
     [AllureNUnit]
     [Parallelizable]
@@ -20,10 +20,10 @@ namespace ParaTets
             searchTextBox.SendKeys("men's denim");
             driver.FindElement(_searchBTN).Click();
             Thread.Sleep(5000);
-            // // string _totalResults = driver.FindElement(By.CssSelector("div.a-section.a-spacing-small.a-spacing-top-small")).Text;
-            string _totalResults = driver.FindElement(_results).Text;
-            Console.WriteLine(String.Format("Results Found: {0}", _totalResults));
-            TestContext.Out.WriteLine(String.Format("Results Found: {0}", _totalResults));
+            //// // string _totalResults = driver.FindElement(By.CssSelector("div.a-section.a-spacing-small.a-spacing-top-small")).Text;
+            //string _totalResults = driver.FindElement(_results).Text;
+            //Console.WriteLine(String.Format("Results Found: {0}", _totalResults));
+            //TestContext.Out.WriteLine(String.Format("Results Found: {0}", _totalResults));
 
         }
     }

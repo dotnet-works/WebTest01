@@ -31,7 +31,7 @@ namespace AutomationBase
             if (ENV2 == "") { Console.WriteLine("ENV2 is empty");  }
             else if(ENV2==null) { Console.WriteLine("ENV2 is null"); }
 
-            Console.WriteLine(ENV2.GetType());
+            //Console.WriteLine(ENV2.GetType());
             
             Console.WriteLine($"Param: {TestContext.Parameters["param1"]}");
             Console.WriteLine($"browser: {browserName} platform: {platform}");

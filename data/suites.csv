@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu May 30 18:36:02 GMT 2024","Thu May 30 18:36:23 GMT 2024","21476","","","","TestXpath","TestSelectList","TestSelectList",""
+"passed","Thu May 30 19:13:22 GMT 2024","Thu May 30 19:14:04 GMT 2024","42880","","","","SearchAmazonProduct1","Test1","Test1",""

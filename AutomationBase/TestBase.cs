@@ -210,7 +210,7 @@ namespace AutomationBase
                     _chromeOptions.AddArguments("--disable-dev-shm-usage");
                     _chromeOptions.AddArguments("--no-sandbox");
                     _chromeOptions.AddArguments("--log-level=3");
-                    // _chromeOptions.AddArguments("--headless");
+                    _chromeOptions.AddArguments("--headless");
                     driver = new ChromeDriver(_chromeOptions);
                     break;
                 default:
